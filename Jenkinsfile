@@ -1,12 +1,12 @@
-Pipeline {
+pipeline {
     agent any
 
     stages {
-        stage('Clean') {
+        stage('compile') {
             steps {
-                echo 'Cleaning..'
+                echo 'compiling..'
                 withMaven(maven : 'maven_3_5_0') {
-                    sh 'mvn clean'
+                    sh 'mvn compile'
                 }
             }
         }
