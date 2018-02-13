@@ -18,6 +18,21 @@
  
   </dependencies>
   
+<distributionManagement>
+        <repository>
+          <id>nexus</id>
+             <name>Nanu release</name>
+             <url>http://localhost:8081/repository/Nanu-release/</url>
+        </repository>
+
+     <snapshotRepository>
+         <id>nexus</id>
+         <name>Nanu snapshot </name>
+         <url>http://localhost:8081/repository/Nanu-snaps/</url>
+     </snapshotRepository>
+
+</distributionManagement>
+	
   <build>
   	<plugins>
   		<plugin>
