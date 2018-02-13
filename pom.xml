@@ -20,13 +20,13 @@
   
 <distributionManagement>
         <repository>
-          <id>nexus</id>
+          <id>deployment</id>
              <name>Nanu release</name>
              <url>http://localhost:8081/repository/Nanu-release/</url>
         </repository>
 
      <snapshotRepository>
-         <id>nexus</id>
+         <id>deployment</id>
          <name>Nanu snapshot </name>
          <url>http://localhost:8081/repository/Nanu-snaps/</url>
      </snapshotRepository>
